@@ -1,49 +1,91 @@
-<p align="center">
-  <h2 align="center"><b>[NAMA APLIKASI / PROYEK KAMU]</b></h2>
-  <p align="center">
-    [Deskripsi singkat 1–2 kalimat mengenai fungsi utama sistem ini.]
-  </p>
-</p>
+<div align="center">
+
+# Website Pengelolaan Tagihan Mitra Pelanggan Fiber Optic
+
+Sistem informasi berbasis web untuk mengelola data, administrasi, dan monitoring tagihan mitra pelanggan fiber optic.
+
+![Laravel](https://img.shields.io/badge/Laravel-12-red?style=flat-square&logo=laravel)
+![PHP](https://img.shields.io/badge/PHP-8.2-blue?style=flat-square&logo=php)
+![Filament](https://img.shields.io/badge/Filament-v3-orange?style=flat-square)
+![MySQL](https://img.shields.io/badge/MySQL-Database-blue?style=flat-square&logo=mysql)
+
+</div>
 
 ---
 
-## 📌 Tentang Proyek
+## ✨ Features
 
-**[Nama Aplikasi]** adalah sistem berbasis web yang dirancang untuk [jelaskan masalah yang diselesaikan atau tujuan utama aplikasi]. 
-
-Fitur utama yang disediakan meliputi:
-- 📑 **[Nama Fitur 1]**: [Penjelasan singkat fungsi fitur 1]
-- 📊 **[Nama Fitur 2]**: [Penjelasan singkat fungsi fitur 2]
-- 🔐 **[Nama Fitur 3]**: [Penjelasan singkat fungsi fitur 3 (misal: Manajemen Otorisasi/Role)]
-- ⚙️ **[Nama Fitur 4]**: [Penjelasan singkat fitur lainnya]
-
----
-
-## 🛠️ Tech Stack & Modul
-
-Aplikasi ini dibangun menggunakan *stack* teknologi berikut:
-
-- **Framework:** Laravel (v10 / v11)
-- **UI & Components:** Livewire / Filament / Blade / Tailwind CSS
-- **Database:** MySQL
-- **PHP Version:** >= 8.1
+- Dashboard monitoring
+- Manajemen tagihan mitra
+- Manajemen data pelanggan
+- Manajemen data mitra
+- Role & Permission
+- Export laporan
+- Status monitoring
 
 ---
 
-## 🚀 Panduan Instalasi Lokal
+## 🛠 Tech Stack
 
-Ikuti langkah-langkah berikut untuk menjalankan proyek ini di lingkungan lokal kamu:
+- Laravel
+- PHP 8.2
+- Filament
+- Livewire
+- MySQL
+- Tailwind CSS
+- HTML
+- CSS
+- JavaScript
 
-### 1. Prasyarat
-Pastikan komputer kamu sudah terinstal:
-- PHP (versi yang sesuai)
-- Composer
-- MySQL Server / XAMPP
-- Node.js & NPM (Opsional jika menggunakan kompilasi aset frontend)
+---
 
-### 2. Langkah Instalasi
+## 🚀 Installation
 
-1. **Clone repository ini:**
-   ```bash
-   git clone [https://github.com/username/nama-repo.git](https://github.com/username/nama-repo.git)
-   cd nama-repo
+Clone repository
+
+```bash
+git clone https://github.com/username/repository.git
+cd repository
+```
+
+Install dependency
+
+```bash
+composer install
+```
+
+Copy file environment
+
+```bash
+cp .env.example .env
+```
+
+Generate application key
+
+```bash
+php artisan key:generate
+```
+
+Configure database pada file `.env`, kemudian jalankan:
+
+```bash
+php artisan migrate
+```
+
+Buat symbolic link
+
+```bash
+php artisan storage:link
+```
+
+Jalankan aplikasi
+
+```bash
+php artisan serve
+```
+
+Akses melalui
+
+```
+http://127.0.0.1:8000
+```
