@@ -1,0 +1,11 @@
+<x-filament::widget>
+    <x-filament::card>
+        <h2 class="text-lg font-semibold">WEB MASIH DALAM PROSES DEVELOPMENT (PERANCANGAN) !</h2>
+        {{-- <p class="text-gray-600">Gunakan menu di sisi kiri untuk mengelola data.</p> --}}
+
+        <h2>!!! PERINGATAN : PERSIAPKAN DAHULU DATA YANG AKAN DIGUNAKAN</h2>
+        <h2>!!! PERHATIKAN KEMBALI DATA YANG TELAH DI DUPLIKAT KARENA BOQ TIDAK IKUT TERDUPLIKAT</h2>
+
+        <H1>!!! JIKA ADA KESALAHAN (MINOR) WEBSITE MASIH DALAM TAHAP DEVELOPMENT (PERANCANGAN) !</H1>
+    </x-filament::card>
+</x-filament::widget>
