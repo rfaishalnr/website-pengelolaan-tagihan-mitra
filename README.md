@@ -13,7 +13,7 @@ Sistem informasi berbasis web untuk mengelola data, administrasi, dan monitoring
 
 ---
 
-## ✨ Features
+## Features
 
 - Dashboard monitoring
 - Manajemen tagihan mitra
@@ -25,7 +25,7 @@ Sistem informasi berbasis web untuk mengelola data, administrasi, dan monitoring
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - Laravel
 - PHP 8.2
@@ -39,7 +39,7 @@ Sistem informasi berbasis web untuk mengelola data, administrasi, dan monitoring
 
 ---
 
-## 🚀 Installation
+## Installation
 
 Clone repository
 
