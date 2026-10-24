@@ -28,7 +28,7 @@ Sistem informasi berbasis web untuk mengelola data, administrasi, dan monitoring
 ## Tech Stack
 
 - Laravel
-- PHP 8.2
+- PHP 8.4
 - Filament
 - Livewire
 - MySQL
